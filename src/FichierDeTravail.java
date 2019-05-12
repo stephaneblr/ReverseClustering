@@ -42,7 +42,7 @@ public class FichierDeTravail {
     System.out.println(s);
     SwingUtilities.invokeLater(new Runnable() {
       public void run() {
-        s.arbre();
+        s.arbre(14);
         // s.arbre() --> Taxonomie 
         // s.arbre(i) --> Caractéristique du projet i 
       }
